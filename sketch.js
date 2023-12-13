@@ -81,7 +81,7 @@ class Ball {
     }
 
 
-    // Check if the ball goes out of bounds
+    // Check if the ball reaches the goal
     if (this.x - this.size / 2 < 0 || this.x + this.size / 2 > width) {
       this.reset();
     }
